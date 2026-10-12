@@ -5,7 +5,9 @@ PHP client for the [NetArz FX API](https://netarz.ir/fx-api): Tehran open-market
 PHP 8.1+, ext-curl. No other dependencies.
 
 ```bash
-composer require netarz/fx
+composer config repositories.netarz-fx vcs https://github.com/netarz/fx-php
+composer require netarz/fx:^0.1
+# Packagist release coming soon: composer require netarz/fx
 ```
 
 ```php
